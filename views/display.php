@@ -1,4 +1,7 @@
 <div class="pyro-widget-folder-image">
+  <?php if ($options['show_title'] == '1'): ?>
+    <h3><?php echo $options['widget']['instance_title']; ?></h3>
+  <?php endif ?>
   <ul>
     <?php if ($options['link'] == '1'): ?>
       {{ files:listing folder="<?php echo $options['folder_id'] ?>" type="i" }}
