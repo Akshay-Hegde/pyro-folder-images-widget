@@ -3,6 +3,8 @@ pyro-fodler-images-widget
 
 A small widget for PyroCMS. Allows you to list all the images from a specified folder.
 
+![screenshot](https://github.com/james2doyle/pyro-folder-images-widget/raw/master/screenshot.png)
+
 ### Features
 
 * select any folder in your files
